@@ -1,0 +1,26 @@
+# Build output from build.sh
+*.app/
+*.iconset/
+*.icns
+
+# Swift / Xcode (in case the project is ever opened in Xcode or SwiftPM)
+.build/
+.swiftpm/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Claude Code local settings
+.claude/settings.local.json
